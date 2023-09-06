@@ -33,11 +33,5 @@ namespace Notes.Application.Notes.Commands.UpdateNote
 
             return Unit.Value;
         }
-
-        // визуалка ругается
-        Task IRequestHandler<UpdateNoteCommand>.Handle(UpdateNoteCommand request, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
